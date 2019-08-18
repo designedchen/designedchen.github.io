@@ -14,6 +14,10 @@ body {
   color: #4e4e4e;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 h1,
 h2,
 h3,
@@ -118,6 +122,15 @@ a:hover {
   display: table-cell;
   vertical-align: middle;
 }
+
+ul.ul,
+ol.ol {
+  list-style-type: none;
+  margin-inline-start: 0px;
+  margin-bottom: 1.4em;
+  line-height: 2em;
+}
+
 
 /*--/ Sections /--*/
 
@@ -674,8 +687,8 @@ a:hover {
 ======================================*/
 
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .about-mf .about-img {
