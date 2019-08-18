@@ -24,6 +24,7 @@ h6 {
   color: #1e1e1e;
 }
 
+
 a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
@@ -38,6 +39,8 @@ a:hover {
 .p-r {
   position: relative;
 }
+
+
 
 .color-a {
   color: #0078ff;
@@ -126,8 +129,15 @@ ol.ol {
   margin-inline-start: 0px;
   margin-bottom: 1.4em;
   line-height: 2em;
+  -webkit-padding-start: 0;
 }
 
+p.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2rem;
+    padding-bottom: 5rem;
+    }
 
 /*--/ Sections /--*/
 
@@ -380,6 +390,7 @@ ol.ol {
   height: 60px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
+
 }
 
 @-webkit-keyframes animate-preloader {
@@ -737,6 +748,8 @@ ol.ol {
   font-size: 2rem;
   margin-bottom: 0;
 }
+
+
 
 /*======================================
 //--//-->   PORTFOLIO
@@ -1244,8 +1257,5 @@ footer .credits a {
   }
   .bg-image{
       background-position: 55% 50%;
-  }
-  .counter-box {
-    padding:2rem;
   }
 }
