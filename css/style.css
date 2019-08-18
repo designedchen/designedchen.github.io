@@ -14,10 +14,7 @@ body {
   color: #4e4e4e;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+
 h1,
 h2,
 h3,
@@ -687,8 +684,8 @@ ol.ol {
 ======================================*/
 
 .about-mf .box-shadow-full {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .about-mf .about-img {
@@ -1247,5 +1244,8 @@ footer .credits a {
   }
   .bg-image{
       background-position: 55% 50%;
+  }
+  .counter-box {
+    padding:2rem;
   }
 }
