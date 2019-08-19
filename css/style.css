@@ -640,7 +640,7 @@ p.lead {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: .5;
 }
 
 .intro .intro-title {
@@ -1257,5 +1257,9 @@ footer .credits a {
   }
   .bg-image{
       background-position: 55% 50%;
+  }
+  .table-cell {
+    display: table-cell;
+    vertical-align: bottom;
   }
 }
