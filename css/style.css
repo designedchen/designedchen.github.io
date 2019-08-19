@@ -135,9 +135,11 @@ ol.ol {
 p.lead {
     font-size: 1.25rem;
     font-weight: 300;
-    line-height: 2rem;
-    padding-bottom: 5rem;
+    line-height: 2.1rem;
+    padding-bottom: 2rem;
     }
+
+
 
 /*--/ Sections /--*/
 
@@ -150,7 +152,7 @@ p.lead {
 }
 
 .sect-mt4 {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 /*--/ Title s /--*/
