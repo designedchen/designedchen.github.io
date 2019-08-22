@@ -182,6 +182,9 @@ p.lead {
   margin-bottom: 3rem;
 }
 
+.title{
+  padding-top: 3rem;
+}
 .title-a {
   font-size: 3rem;
   font-weight: bold;
