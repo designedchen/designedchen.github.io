@@ -153,6 +153,9 @@ p.lead {
 
 /*--/ Sections /--*/
 
+.userflow{
+  max-width: 100%;
+}
 .sect-4 {
   padding: 4rem 0;
 }
@@ -176,7 +179,7 @@ p.lead {
 /*--/ Title A /--*/
 
 .title-box {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .title-a {
