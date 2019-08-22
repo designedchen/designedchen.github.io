@@ -132,6 +132,11 @@ ol.ol {
   -webkit-padding-start: 0;
 }
 
+div.p{
+  display: block;
+  text-align:left;
+}
+
 p.lead {
     font-size: 1.25rem;
     font-weight: 300;
@@ -1265,8 +1270,4 @@ footer .credits a {
   .bg-image{
       background-position: 50% 55%;
   }
-.profile-photo{
-  max-width:80%;
-   max-height:80%;
-}
 }
