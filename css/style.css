@@ -24,7 +24,9 @@ h6 {
   color: #1e1e1e;
 }
 
-
+h3{
+  padding-bottom: 3rem;
+}
 a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
@@ -179,7 +181,7 @@ p.lead {
 /*--/ Title A /--*/
 
 .title-box {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .title{
