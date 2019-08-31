@@ -88,6 +88,12 @@ a:hover {
   overflow: hidden;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -237,6 +243,15 @@ p.lead {
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-left {
+    width:300px;
+    float:left;
+    height:auto !important;
+}
+.txt-right {
+        float:right;
 }
 
 /*------/ Socials /------*/
