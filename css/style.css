@@ -159,10 +159,29 @@ p.lead {
       width: 50%;
     }
 
+
+    .box {
+      transition: box-shadow .3s;
+      width: 300px;
+      height: 500px;
+      margin: 50px;
+      border-radius:10px;
+      border: 1px solid #ccc;
+      background: #fff;
+      float: left;
+
+    }
+    .box:hover {
+      box-shadow: 0 0 11px rgba(33,33,33,.2);
+    }
+
 /*--/ Sections /--*/
 
 .userflow{
   max-width: 100%;
+}
+.banner{
+  max-width: 80%;
 }
 .sect-4 {
   padding: 4rem 0;
@@ -1239,6 +1258,9 @@ footer .credits a {
     font-size: 1.5rem;
   }
 }
+
+
+
 
 @media (min-width: 992px) {
   .testimonial-box .description {
