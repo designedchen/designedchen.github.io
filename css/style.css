@@ -180,6 +180,10 @@ p.lead {
 .userflow{
   max-width: 100%;
 }
+
+.resizeimage{
+  width:70%;
+}
 .banner{
   max-width: 85%;
   opacity: 1;
