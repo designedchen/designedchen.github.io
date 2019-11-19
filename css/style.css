@@ -181,12 +181,11 @@ p.lead {
   max-width: 100%;
 }
 .banner{
-  max-width: 70%;
+  max-width: 85%;
   opacity: 1;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-
 }
 
 .banner:hover {
@@ -194,6 +193,9 @@ p.lead {
   box-shadow: 5px 5px 15px rgba(33,33,33,.4);
 }
 
+.banner-margin{
+  margin-bottom: 4rem;
+}
 
 .sect-4 {
   padding: 4rem 0;
@@ -814,6 +816,10 @@ p.lead {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+}
+
+.portfolio-image{
+  margin-bottom: 3rem;
 }
 
 .work-box:hover img {
